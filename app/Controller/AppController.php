@@ -67,7 +67,7 @@ class AppController extends Controller {
 //       $this->Cookie->httpOnly = true;
        $this->Cookie->type('aes');
 
-        $this->Auth->allow('index','resetpassword','logout','register','login');
+        $this->Auth->allow('index','resetpassword','logout','register','login','confirm_email');
 
     }
 }
